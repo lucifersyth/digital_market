@@ -10,10 +10,10 @@ function Stream() {
     const baseX = useMotionValue(0);
     const x = useTransform(baseX, (v) => `${wrap(0, -52, v)}%`);
     useAnimationFrame((t, delta) => {
-        const baseVelocity = -4;
+        const baseVelocity = -2;
         let moveBy = baseVelocity * (delta / 1000);
         baseX.set(baseX.get() + moveBy);
-    }); 
+    });
   return (
     <>
         <section className='bg-primary_black  px-10 py-16 rounded-tr-curl gap-28'>
@@ -26,8 +26,8 @@ function Stream() {
                 {cardButton.map((group,index)=>(
                     <div className='flex gap-10 py-6 justify-center items-center'>
                         <p className='text-white'>{group.title}</p>
-                        <div className="overflow-hidden border-l w-[85%] whitespace-nowrap flex-nowrap flex">
-                                <motion.div className="flex flex-nowrap gap-5" style={{x}}>
+                        <div className="overflow-hidden border-l w-[85%] whitespace-nowrap  flex-nowrap flex">
+                                <motion.div className="flex flex-nowrap gap-5 rounded-3xl"  style={{x}}>
                                     {group.buttons.map((buttonTitle, buttonIndex) => (
                                         <CardButton key={buttonIndex} title={buttonTitle.title} img={buttonTitle.img} />
                                     ))}

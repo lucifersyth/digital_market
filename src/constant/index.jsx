@@ -10,7 +10,18 @@ import { key } from "../assets";
 import { kick } from "../assets";
 import { music } from "../assets";
 import { sql } from "../assets";
-
+import {l1} from "../assets"
+import {l2} from "../assets"
+import {l3} from "../assets"
+import {l4} from "../assets"
+import {l5} from "../assets"
+import {l6} from "../assets"
+import {l7} from "../assets"
+import {l8} from "../assets"
+import {l9} from "../assets"
+import {l10} from "../assets"
+import {l11} from "../assets"
+import {l12} from "../assets"
 
 export const cardButton = [
     {
@@ -366,3 +377,64 @@ export const cardButton = [
       ]
     }
   ];
+
+
+  export const companyCard=[
+    {
+    title:"Available gateways and integrations",
+    images:[
+        {
+          img:l1
+        },
+        {
+          img:l2
+        },
+        {
+          img:l3
+        },
+        {
+          img:l4
+        },
+        {
+          img:l5
+        },
+        {
+          img:l6
+        },
+        {
+          img:l7
+        },
+        {
+          img:l8
+        },
+        {
+          img:l9
+        },
+        {
+          img:l10
+        },
+        {
+          img:l11
+        },
+        {
+          img:l12
+        },
+    ]
+  }
+  ]
+
+
+  export const  pointsData=[
+    {
+    title:"List Your Item",
+    content:"You can list new or used items and pay a final value fee only when it sells. Learn more about fees- opens in new window or tab.."
+    },
+    {
+    title:"Choose when to get paid",
+    content:"You can schedule either daily or weekly payouts, and we'll deposit your earnings directly into your bank account."
+    },
+    {
+    title:"Get seller protection",
+    content:"You're protected by policies, monitoring, and our customer service team."
+    },
+  ]

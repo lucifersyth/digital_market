@@ -1,5 +1,6 @@
 import React from 'react'
 import {logo} from "../assets/index"
+import { Link } from 'react-router-dom'
 
 
 export default function Navbar() {
@@ -17,9 +18,9 @@ export default function Navbar() {
                 <li>Referral</li>
             </ul>
         </div>
-        <div className='flex gap-7'>
-            <button className='text-white'>Sign Up</button>
-            <button className='bg-primary_green px-9 py-4 rounded-md'>Sign In</button>
+        <div className='flex items-center gap-7'>
+            <Link to="/signup"><button className='text-white'>Sign Up</button></Link>
+            <Link to="/signin"><button className='bg-primary_green px-9 py-4 rounded-md'>Sign In</button></Link>
         </div>
     </nav>
     </header>
