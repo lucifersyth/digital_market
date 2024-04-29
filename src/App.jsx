@@ -12,6 +12,9 @@ import Dashboard from './pages/Dashboard'
 import ProductDetails from './pages/components/ProductDetails'
 import Products from './pages/Products'
 import Home from './pages/components/Home'
+import Discounts from './pages/Discounts'
+import BuyorSell from './components/BuyorSell'
+import UserHome from './user/UserHome'
 
 
 function App() {
@@ -27,6 +30,9 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path='/products' element={<Products />} />
           <Route path='/productdetails' element={<ProductDetails />} />
+          <Route path='/discounts' element={<Discounts />} />
+          <Route path='/buyorsell' element={<BuyorSell />} />
+          <Route path='/userhome' element={<UserHome />} />
         </Routes>
       </BrowserRouter>
     </>

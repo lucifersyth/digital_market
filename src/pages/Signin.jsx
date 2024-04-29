@@ -26,7 +26,7 @@ function Signin() {
                     </div>
                     <div className='flex flex-col items-center pb-10'>
                         <Link to="/dashboard">
-                            <button className='text-black bg-primary_green py-2 px-[15rem]'>Sign Up</button>
+                            <button className='text-black bg-primary_green py-2 px-[15rem]'>Sign In</button>
                         </Link>
                         <p className='text-white'>Don't have an account?<Link to="/signup"><button className='text-primary_green'>Sign Up</button></Link></p>
                     </div>

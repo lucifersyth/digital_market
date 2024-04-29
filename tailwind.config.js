@@ -10,6 +10,7 @@ export default {
         secondary_green : "#56e5a1",
         primary_black : "#000f08",
         secondary_black : "#171717",
+        primary_blue: "#3665f3"
       },
       backgroundColor : {
         primary_green : "#56e5a1",
