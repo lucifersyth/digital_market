@@ -14,7 +14,7 @@ function BuyorSell() {
                 </div>
                 <div className='flex gap-10 text-center p-[5rem] justify-around items-center'>
                         {buyorsellcontent.map((content, index) => (
-                            <Card key={index} title={content.title} />
+                            <Card key={index} index={index} title={content.title} />
                         ))}
                 </div>
             </div>

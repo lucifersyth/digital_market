@@ -12,7 +12,7 @@ function Main() {
       <Hero></Hero>
       <Stream></Stream>
       <Path></Path>
-      <Footer></Footer>
+      <Footer color="primary_black"></Footer>
       {/* <Dashboard></Dashboard> */}
     </>
   )

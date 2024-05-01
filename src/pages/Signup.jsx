@@ -14,7 +14,7 @@ function Signup() {
                 <div className=' flex flex-col '>
                     <div className='flex flex-col gap-3 px-[30rem] py-3'>
                         <p className='text-white font-bold'>NAME</p>
-                        <input type="text" placeholder="Enter" className=' border font-bold py-2 font-semibold bg-black border-1-white text-white' />
+                        <input type="text" placeholder="Enter" className=' border  py-2 font-semibold bg-black border-1-white text-white' />
                     </div>
                     <div className='flex flex-col gap-3 px-[30rem] py-3'>
                         <p className='text-white font-bold'>EMAIL ADDRESS</p>
@@ -35,7 +35,7 @@ function Signup() {
 
                     <div className='flex flex-col items-center pb-10'>
                         <p className='text-white py-10'>By clicking Sign Up, you agree to our <span className='text-primary_green'>Terms of Service</span> & <span className='text-primary_green'>Privacy Policy</span></p>
-                        <Link to="/userhome">
+                        <Link to="/buyorsell">
                             <button type="submit" className='text-black bg-primary_green py-2 px-[15rem]'>Sign Up</button>
                         </Link>
                         <p className='text-white'>Already have an account?<Link to="/signin"><button className='text-primary_green'>Log In</button></Link></p>

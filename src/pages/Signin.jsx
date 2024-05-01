@@ -25,7 +25,7 @@ function Signin() {
                         <input type="text" placeholder="Enter" className='w-full border py-2 font-semibold bg-black border-1-white text-white' />
                     </div>
                     <div className='flex flex-col items-center pb-10'>
-                        <Link to="/dashboard">
+                        <Link to="/buyorsell">
                             <button className='text-black bg-primary_green py-2 px-[15rem]'>Sign In</button>
                         </Link>
                         <p className='text-white'>Don't have an account?<Link to="/signup"><button className='text-primary_green'>Sign Up</button></Link></p>

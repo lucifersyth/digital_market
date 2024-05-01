@@ -13,7 +13,7 @@ function Hero() {
                 <div className='h-full text-white flex flex-col gap-[4rem] items-center pt-[5rem]'>
                     <motion.div
                         animate={{ y: ["0%", "20%", "0%"] }}
-                        transition={{ ease: "easeInOut", repeat: Infinity, duration: 1, delay: 10 }}
+                        transition={{ ease: "easeInOut", repeat: Infinity, duration: 1 }}
                     >
                         <motion.svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ function Hero() {
                                         d="M-18-376.5v15.803"
                                         transform="matrix(.5 0 0 .5 66.75 270.586)"
                                         animate={{ pathLength: [0, 1, 0] }}
-                                        transition={{ ease: "easeInOut", repeat: Infinity, duration: 1, delay: 10 }}
+                                        transition={{ ease: "easeInOut", repeat: Infinity, duration: 1 }}
                                     ></motion.path>
                                     <motion.path
                                         fill="none"
@@ -43,7 +43,7 @@ function Hero() {
                                         d="M-18-376.5v15.803"
                                         transform="matrix(.5 0 0 .5 66.75 270.586)"
                                         animate={{ pathLength: [0, 1, 0] }}
-                                        transition={{ ease: "easeInOut", repeat: Infinity, duration: 1, delay: 10 }}
+                                        transition={{ ease: "easeInOut", repeat: Infinity, duration: 1 }}
                                     ></motion.path>
                                 </g>
                                 <g display="block">
@@ -51,7 +51,7 @@ function Hero() {
                                         d="M-18-376.5v26.696"
                                         transform="matrix(.5 0 0 .5 59 270.586)"
                                         animate={{ pathLength: [0, 1, 0] }}
-                                        transition={{ ease: "easeInOut", repeat: Infinity, duration: 1, delay: 1 }}
+                                        transition={{ ease: "easeInOut", repeat: Infinity, duration: 1}}
                                     ></motion.path>
                                     <motion.path
                                         fill="none"
@@ -61,7 +61,7 @@ function Hero() {
                                         d="M-18-376.5v26.696"
                                         transform="matrix(.5 0 0 .5 59 270.586)"
                                         animate={{ pathLength: [1, 0, 1] }}
-                                        transition={{ ease: "easeInOut", repeat: Infinity, duration: 1, delay: 10 }}
+                                        transition={{ ease: "easeInOut", repeat: Infinity, duration: 1 }}
                                     ></motion.path>
                                 </g>
                                 <g display="block">
@@ -69,7 +69,7 @@ function Hero() {
                                         d="M-18-376.5v17.292"
                                         transform="matrix(.5 0 0 .5 51.25 270.586)"
                                         animate={{ pathLength: [0, 1, 0] }}
-                                        transition={{ ease: "easeInOut", repeat: Infinity, duration: 1, delay: 10 }}
+                                        transition={{ ease: "easeInOut", repeat: Infinity, duration: 1 }}
                                     ></motion.path>
                                     <motion.path
                                         fill="none"
@@ -79,7 +79,7 @@ function Hero() {
                                         d="M-18-376.5v17.292"
                                         transform="matrix(.5 0 0 .5 51.25 270.586)"
                                         animate={{ pathLength: [0, 1, 0] }}
-                                        transition={{ ease: "easeInOut", repeat: Infinity, duration: 1, delay: 10 }}
+                                        transition={{ ease: "easeInOut", repeat: Infinity, duration: 1 }}
                                     ></motion.path>
                                 </g>
                                 <path

@@ -3,10 +3,10 @@ import { facebook, insta, logo, tiktok, x, youtube } from "../assets";
 import { footerContent } from '../constant';
 
 
-function Footer() {
+function Footer(props) {
     return (
         <>
-            <footer className="pt-[2rem] pb-[5rem] px-10 md:px-[5rem] text-white font-heading bg-primary_black flex flex-col gap-5 justify-start">
+            <footer className={`pt-[2rem] pb-[5rem] px-10 md:px-[5rem] text-white font-heading bg-${props.color} flex flex-col gap-5 justify-start`}>
                 <img src={logo} width={40} alt="" />
                 <div className="flex flex-col md:flex-row justify-between flex-wrap gap-10 md:gap-[15%]">
                     <div className="flex flex-col gap-3">

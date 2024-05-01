@@ -42,15 +42,17 @@ import laptop from "./laptop.jpg"
 import shoe from "./shoes.jpg"
 import tshirt from "./tshirt.webp"
 import books from "./books.jpg"
+import cart from "./cart.svg"
+import minus from "./minus.svg"
 
 
 
 export {
-    cube,books,shoe,tshirt,laptop,jackets,
+    cube,books,shoe,tshirt,laptop,jackets,minus,
     logo,shoes,
     rocket_path,
     arrow_right,
     brush,book,camera,chatgpt,dumbell,gallery,game,key,kick,music,sql,tiktok,youtube,insta,x,facebook
     ,rocket,stars,plus,userbg,
-    l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,l11,l12,patternstars,bgimage
+    l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,l11,l12,patternstars,bgimage,cart
 }
